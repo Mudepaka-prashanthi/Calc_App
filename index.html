@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <!-- <center> -->
+    <section class="cal_app_wrapper">
+        <div class="calc_app">
+            <div class="userInput">
+                <span id="userResult"></span>
+            </div>
+            <div class="buttons">
+                <button onclick="userCancel('c')" class="circle cancel_button b "><i class="fa-thin fa-c"></i></button>
+                <button onclick="userOperation('del')" class="circle  buttons b">Del</button>
+                <button onclick="userOperation('/')" class="circle  buttons b"> <i class="fas fa-divide"></i></button>
+                <button onclick="userOperation('*')" class="circle  buttons b">X</button>
+                <button onclick="userInput(7)" class="circle  buttons b">7</button>
+                <button onclick="userInput(8)" class="circle  buttons b">8</button>
+                <button onclick="userInput(9)" class="circle  buttons b ">9</button>
+                <button onclick="userInput('-')" class="circle  buttons b">-</button>
+                <button onclick="userInput(4)" class="circle  buttons b">4</button>
+                <button onclick="userInput(5)" class="circle  buttons b">5</button>
+                <button onclick="userInput(6)" class="circle  buttons b">6</button>
+                <button onclick="userOperation('+')" class="circle  buttons b">+</button>
+                <div class="last_row-left">
+                    <button onclick="userInput(1)" class="circle  buttons b">1</button>
+                    <button onclick="userInput(2)" class="circle buttons b">2</button>
+                    <button onclick="userInput(3)" class="circle buttons b">3</button>
+                    <button onclick="userOperation('%')" class="circle buttons b ">%</button>
+                    <button onclick="userInput(0)" class="circle buttons b">0</button>
+                    <button onclick="userOperation('.')" class="circle  buttons b">.</button>
+                </div>
+                <div class="last_row-right">
+                    <button onclick='result()' class="buttons b eq">=</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- </center> -->
+</body>
+
+</html>

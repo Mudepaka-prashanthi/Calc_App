@@ -1,0 +1,94 @@
+body{
+    background: #ccc;
+}
+.cal_app_wrapper{
+    text-align: center;
+}
+.userInput{
+    background: #e5e5e5;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    height: 150px;
+    width: 100%;
+    box-shadow: 0 -1px 0 0 #ccc; /* Border top */
+box-shadow: 1px 0 0 0 #ccc; /* Border right */
+box-shadow: 0 1px 0 0 #ccc; /* Border bottom */
+box-shadow: -1px 0 0 0 #ccc; /* Border left */
+box-shadow: 0 0 0 1px #ccc; /* All the borders by using the spread properties */
+}
+
+.calc_app{
+    border: 1px solid #ccc;
+    width: 650px;
+    background: #fff;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #fe806f;
+    box-shadow: 0px 1px 4px 2px #ccc;
+    border: 0;
+    padding: 10px;
+}
+.circle.cancel_button{
+    background-color: #fe806f;
+
+}
+.fa-c{
+    color: #fff;
+}
+.circle .fa-thin{
+    font-size: 35px;
+}
+
+.buttons{
+    border-spacing: 20%;
+    font-size :35px;
+    background-color: white;
+    box-shadow:#fe806f;
+    margin-right: 16px;;
+    margin-bottom: 20px;
+    margin-left:20px;
+
+    
+    
+
+}
+.b:hover, .circle.cancel_button:hover .fa-c
+{
+background-color: #1e90ff21;
+color: #000;
+}
+.eq
+{
+    width: 85px;
+    margin-left:10%;
+    height: 250px;
+    background-color: #fe806f;
+    color:white;
+    box-shadow: 0px 1px 4px 2px #ccc;
+    border: 0; 
+    padding: 5px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+span button .eq{
+height: 150px;
+}
+.last_row-left{
+    float: left;
+    width: 75%;
+}
+.last_row-right{
+    width: 23%;
+    display: inline-block;
+    text-align: left;
+    margin-left: 2%;
+}

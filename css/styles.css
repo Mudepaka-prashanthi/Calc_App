@@ -1,6 +1,9 @@
 body{
     background: #ccc;
 }
+body button{
+    cursor: pointer;
+}
 .cal_app_wrapper{
     text-align: center;
 }
@@ -91,4 +94,15 @@ height: 150px;
     display: inline-block;
     text-align: left;
     margin-left: 2%;
+}
+#userResult {
+    font-size: 70px;
+    text-align: right;
+    margin-right: 28px;
+    font-weight: 600;
+}
+.results{
+    font-size: 60px;
+    text-align: right;
+    margin-right: 10px;
 }
